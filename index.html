@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Details</h1>
+      <form id="studentForm">
+        <label for="firstName">First Name:</label><br />
+        <input type="text" id="firstName" name="firstName" /><br />
+        <label for="lastName">Last Name:</label><br />
+        <input type="text" id="lastName" name="lastName" /><br />
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" /><br />
+        <label for="parentName">Parent's Name:</label><br />
+        <input type="text" id="parentName" name="parentName" /><br />
+        <label for="address">Address:</label><br />
+        <input type="text" id="address" name="address" /><br />
+        <label for="city">City:</label><br />
+        <input type="text" id="city" name="city" /><br />
+        <label for="phone">Phone Number:</label><br />
+        <input type="tel" id="phone" name="phone" /><br /><br />
+      </form>
+
+      <!-- Buttons -->
+      <div class="button-container">
+        <input type="submit" value="Submit" form="studentForm" />
+        <!-- View Report button -->
+        <button id="viewReportBtn">View Report</button>
+      </div>
+
+      <!-- Success message -->
+      <p id="successMessage">Data submitted ✔</p>
+    </div>
+
+    <!-- JavaScript code -->
+    <script src="app.js"></script>
+  </body>
+</html>
